@@ -99,3 +99,37 @@ figure img {
     
     height: 200px;
 }
+.mainsection-3 {
+    background-color: #E5E7EB;
+    padding: 20px;
+}
+.main-quote {
+    width: 75%;
+    margin: 0 auto;
+}
+.quote {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1f2937;
+    text-align: center;
+    margin: 90px auto 30px auto;
+    width: 100%;
+}
+.author {
+    font-size: 36px;
+    font-weight: 800;
+    text-align: right;
+    width: 100%;
+}
+.mainsection-4 {
+    padding: 90px ;
+}
+.mainsection-4 section {
+    display: flex;
+    width: 70%;
+    padding: 20px 60px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+}
