@@ -122,13 +122,46 @@ figure img {
     width: 100%;
 }
 .mainsection-4 {
-    padding: 90px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 150px;
 }
 .mainsection-4 section {
     display: flex;
     width: 70%;
-    padding: 20px 60px;
+    height: 70px;
+    padding: 20px 100px;
     justify-content: space-between;
     align-items: center;
+    flex: 1;
     background-color: #3882F6;
+    border-radius: 10px;
+}
+.texts h3 {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color:#F9FAF8;
+}
+.texts p {
+    margin-top: 1px;
+    padding-top: 1px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.button button {
+    background-color: inherit;
+    color:#F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.mainsection-5 {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 15px;
+    color: #E5E7EB;
+}
+.mainsection-5 p::after {
+    content: " 2021";
 }
