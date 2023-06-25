@@ -100,6 +100,9 @@ figure img {
     
     height: 200px;
 }
+figcaption {
+    text-align: center;
+}
 .mainsection-3 {
     background-color: #E5E7EB;
     padding: 20px;
@@ -132,7 +135,7 @@ figure img {
 .mainsection-4 section {
     display: flex;
     width: 70%;
-    height: 70px;
+    height: 110px;
     padding: 20px 100px;
     justify-content: space-between;
     align-items: center;
